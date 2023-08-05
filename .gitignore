@@ -1,1 +1,7 @@
-__pycache__
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sensitive file/data
+password.txt
