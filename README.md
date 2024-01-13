@@ -1,53 +1,43 @@
-# ASIK
+![Python Version](https://img.shields.io/pypi/pyversions/pywin32)
+![pywin32 Version](https://img.shields.io/pypi/v/pywin32?label=pywin32)
 
-## Apa itu ASIK?
+<div align="center">
+    <a href="https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Yogyakarta.svg">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Coat_of_arms_of_Yogyakarta.svg" width=25% height=25%>
+        <!-- <p><i>Icon Author: Created c. 2018 by 
+            <a href="https://en.wikipedia.org/wiki/Microsoft">Microsoft Corporation</a>
+        </i></p> -->
+    </a>
+</div>
 
-ASIK (Aplikasi Slip Gaji Elektronik) adalah sebuah aplikasi yang digunakan untuk mencetak Slip Gaji bulanan pegawai dalam bentuk _softfile_ yang kemudian dikirim ke pegawai yang bersangkutan melalui email.
+# SALARY
 
----
+Salary is a Python project designed to automate my daily office work related to managing employees salaries.
 
-## Modul Utama
+## Table of Contents
 
-1. Download CRViewer1 di SIPKD
-2. Update data di database sekarang (sesuai dengan bulan Slip Gaji)
-3. Formatting tampilan data di excel dan export ke PDF
-4. Kirim lewat Whatsapp/email
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [Contact](#contact)
 
----
+## Installation
 
-## Fitur
+To use the Salary project, follow these installation instructions:
 
-1. Membuat Slip Gaji pegawai dalam bentuk PDF
-2. Mengirim Slip Gaji ke setiap pegawai secara otomatis
-3. Formatting CRViewer1.xlsx (Data Gaji)
+```bash
+# Clone the repository
+git clone https://github.com/your-username/Salary.git
 
----
+# Navigate to the project directory
+cd Salary
 
-## Breakdown Module
+# Install dependencies
+pip install -r requirements.txt
+```
 
-### Module 1 - _Browser Automation_
+## Usage
 
-- Read username dan password di dalam password.txt
-- Login ke SIPKD
-- Navigasi ke daftar gaji PNS/Naban sesuai dengan bulan
-- Download CRViewer.xls
+## Contributing
 
-### Module 2 - _Working with files_
-
-- Pindahkan CRViewer.xls dari "Downloads" ke "asik/data"
-- Convert dari .xls ke .xlsx
-- Rename sesuai dengan Jenis Pegawai dan Bulan
-
-### Module 3 - _Excel format & Export PDF_
-
-- Memperbarui database gaji untuk PNS dan Naban
-- Siapkan file excel untuk Slip Gaji
-- Ubah isian sesuai dengan database
-- Export ke PDF
-
-### Module 4 - _Send files using email_
-
-- Siapkan database untuk email pegawai
-- Siapkan semua Slip Gaji terbaru dalam directory
-- Siapkan format isi email
-- Kirim Slip Gaji melalui email masing-masing pegawai
+## Contact
