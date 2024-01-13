@@ -1,11 +1,12 @@
 ## To-do
 
-- [ ] Update README.md
 - [ ] Add Bahasa Indonesia in README.md
-- [ ] Update project description
+- [ ] Update repository description
+- [ ] Add PDF base class
 
 ## In progress
 
+- [ ] Update README.md
 - [ ] Add requirements.txt
 - [ ] Add method to format CRViewer1.xls
 - [ ] Add CRViewer1.xls extractor
