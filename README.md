@@ -1,12 +1,10 @@
-![Python Version](https://img.shields.io/pypi/pyversions/pywin32)
-![pywin32 Version](https://img.shields.io/pypi/v/pywin32?label=pywin32)
+![Under Development](https://img.shields.io/badge/under-development-yellow?style=for-the-badge)
+[![Version - pywin32](https://img.shields.io/badge/pywin32-306-teal?style=for-the-badge&logo=python)](https://pypi.org/project/pywin32/)
+[![Version - openpyxl](https://img.shields.io/badge/openpyxl-3.1.2-teal?style=for-the-badge&logo=python)](https://pypi.org/project/openpyxl/)
 
 <div align="center">
     <a href="https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Yogyakarta.svg">
         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Coat_of_arms_of_Yogyakarta.svg" width=25% height=25%>
-        <!-- <p><i>Icon Author: Created c. 2018 by 
-            <a href="https://en.wikipedia.org/wiki/Microsoft">Microsoft Corporation</a>
-        </i></p> -->
     </a>
 </div>
 
